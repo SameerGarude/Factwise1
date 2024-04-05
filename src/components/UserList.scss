@@ -1,0 +1,98 @@
+.accordion {
+  width: 50%;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  input {
+    padding: 10px;
+    margin: 5px 0px;
+    width: 97%;
+    border-radius: 10px;
+    border: 1.5px solid gray;
+  }
+
+  .box {
+    border: 1.5px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+
+    .name {
+      display: flex;
+      align-items: center;
+      gap: 27px;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 0;
+      margin: 0;
+
+      img {
+        border: 1px solid gray;
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+      }
+    }
+
+    .details {
+      .top {
+        display: flex;
+        justify-content: space-around;
+        padding-left: 5px;
+
+        .a {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          gap: 2px;
+
+          .b {
+            color: gray;
+          }
+          .c {
+            font-size: 16px;
+            color: black;
+          }
+        }
+      }
+
+      .middle {
+        padding: 20px 0px 10px 68px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+        .b {
+          color: gray;
+        }
+        .c {
+          font-size: 16px;
+          text-align: start;
+          color: black;
+        }
+      }
+      .btn {
+        display: flex;
+        justify-content: end;
+        gap: 20px;
+
+        button {
+          width: fit-content;
+          padding: 10px 20px;
+          border: none;
+          color: #fff;
+          cursor: pointer;
+          background-color: #0071c2;
+          border-radius: 5px;
+        }
+        :hover {
+          background-color: rgb(0, 214, 0);
+        }
+        .del:hover {
+          background-color: red;
+        }
+      }
+    }
+  }
+}
