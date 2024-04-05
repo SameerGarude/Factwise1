@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/factwise/static/css/main.b16353cf.css",
-    "main.js": "/factwise/static/js/main.eb41f45b.js",
-    "index.html": "/factwise/index.html",
-    "main.b16353cf.css.map": "/factwise/static/css/main.b16353cf.css.map",
-    "main.eb41f45b.js.map": "/factwise/static/js/main.eb41f45b.js.map"
+    "main.css": "/factwise1/static/css/main.cae1943e.css",
+    "main.js": "/factwise1/static/js/main.eb41f45b.js",
+    "index.html": "/factwise1/index.html",
+    "main.cae1943e.css.map": "/factwise1/static/css/main.cae1943e.css.map",
+    "main.eb41f45b.js.map": "/factwise1/static/js/main.eb41f45b.js.map"
   },
   "entrypoints": [
-    "static/css/main.b16353cf.css",
+    "static/css/main.cae1943e.css",
     "static/js/main.eb41f45b.js"
   ]
 }
